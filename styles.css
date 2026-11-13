@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eee;
+}
+
+header {
+    background: #4f8ab5;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+#controls label {
+    width: 100%;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+#controls input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+#controls button {
+    padding: 8px 20px;
+    background: #cc2222;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background: #a81c1c;
+}
+
+h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+#result {
+    padding-top: 10px;
+}
+
+#result h3 {
+    margin: 10px 0 0;
+    text-transform: uppercase;
+}
+
+#result h4 {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.not-found {
+    color: #cc2222;
+    font-weight: bold;
+    text-transform: uppercase;
+}

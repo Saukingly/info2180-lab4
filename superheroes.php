@@ -92,13 +92,14 @@ else
     }
     if($found)
     {
+        echo "<h2>" . "RESULT" . "</h2>";
         echo "<h3>" . htmlspecialchars($found['alias']) . "</h3>";
         echo "<h4>" . htmlspecialchars($found['name']) . "</h4>";
         echo "<p>" . htmlspecialchars($found['biography']) . "</p>";
     }
     else 
     {
-        echo "<p>" . "Superhero not found" . "</p>";
+        echo "<p class = not-found>" . "Superhero not found" . "</p>";
     }
 }
 ?>
