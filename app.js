@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 return response.text();
             })
             .then(function(data) {
-                alert(data);
+                result.innerHTML = data;
             })
             .catch();
     });
